@@ -1,0 +1,38 @@
+ 
+  
+<h1>Add New User</h1>  
+
+<form action="adduser.jsp" method="post">  
+<table>  
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name"/>
+</td>
+</tr> 
+
+<tr>
+<td>Gender:</td>
+<td>  
+<input type="radio" name="gender" value="male"/>Male   
+<input type="radio" name="gender" value="female"/>Female
+</td>
+</tr> 
+
+<tr>
+<td>Course:</td>
+<td><input type="text" name="course"/>
+</td>
+</tr>  
+
+<tr><td>Duration:</td><td>  
+<select name="duration" style="width:155px">  
+<option>3</option>  
+<option>6</option>  
+<option>1</option>   
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Add User"/></td></tr>  
+</table>  
+</form>  
+
+<a href="viewusers.jsp">View All Records</a><br/> 
